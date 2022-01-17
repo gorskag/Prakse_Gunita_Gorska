@@ -1,0 +1,475 @@
+/* --- Mobile --- */
+@media only screen and (max-width: 600px) {
+
+    /* --- Navigation --- */
+    #mainNav > div.container-fluid{
+        padding-left: 20px !important;
+        width: fit-content;
+        margin: 0;
+    }
+
+    a.navbar-brand {
+        padding-bottom: 0;
+    }
+
+    a.navbar-brand > img {
+        width: 78px;
+    }
+
+    #navbarFont{
+        font-family: MonsterratBold;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #mainNav {
+        padding-top: 0 !important;
+        background: #fff;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #ffa800;
+    }
+        
+    .custom-toggler.navbar-toggler {
+        border-color: #ffa800;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 168, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    /* --- Header --- */
+    .headerImg {
+        height: 169px;
+        width: 320px;
+    }
+    section.d-sm-block{
+        height: 169px;
+        width: 320px;
+    }
+    section.d-sm-block > div.container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* --- About us --- */
+    #aboutUs{
+        padding: 80px 20px;
+        margin-bottom: 0;
+        
+        width: 100%;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #aboutUs > p {
+        width: 280px;
+        margin-bottom: 0;
+    }
+
+    /* --- Photo collage --- */
+
+    #rippedImage{
+        position: absolute;
+        padding: 0;
+    }
+
+    #imageCollage > img{
+        padding: 0;
+        width: 160px;
+    }
+
+    #imageCollage > div.col > img.imageTop{
+        width: 160px;
+    }
+
+    #imageCollage > div.col{
+        padding: 0;
+    }
+
+    /* --- Contact us --- */
+    #contHeader > div {
+        padding-top: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #contact_us{
+        width: 320px;
+    }
+
+    #contHeader > div > div > div > div > button{
+        background-color: #ffa800;
+        border: none;
+        border-radius: 25px;
+    }
+
+    
+    #contactHeadingfirst, #contactHeadingsecond{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 18px;
+    }
+
+    #contactHeadingsecond{
+        padding-top: 80px;
+    }
+
+    #contactHeading{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 24px;
+    }
+    #contactHeader > div{
+        padding-bottom: 55px;
+    }
+
+    #contacts{
+        padding: 150px 0;
+    }
+
+    #form{
+        padding-bottom: 150px;
+    }
+
+    #form > div > div > div > input::placeholder, #form > div > input::placeholder, #form > div > textarea::placeholder, #form > div > div{
+        color: #2F4858;
+    }
+    #form > div > div > div > input, #form > div > input, #form > div > textarea{
+        background: rgba(196, 196, 196, 0.4);
+        border: none;
+    }
+
+    #form > button{
+        background-color: #ffa800;
+        border: none;
+        border-radius: 25px;
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    /* --- Sponsors --- */
+    #sponsors{
+        background: #ffcb66;
+    }
+
+    #sponsors-list{
+        padding-bottom: 90px;
+    }
+
+    #sponsors-list > img{
+        width: 131px;
+        margin-left: 20px;
+    }
+
+    #sponsors-list > img.linearis{
+        width: 48px;
+        margin-left: 59px;
+        margin-top: 34px;
+    }
+
+    .font2{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 24px;
+        padding: 100px 0px 89px 0px;
+    }
+
+    /* --- Footer --- */
+
+    #footer{
+        background: #2F4858;
+        margin-top: -35px;
+    }
+    #footer > div > div > h5{
+        font-size: 24px;
+        padding-bottom: 22px;
+        margin-bottom: 0;
+    }
+
+    #footer > div > div > div > p{
+        font-size: 18px;
+        line-height: 10px;
+        margin-bottom: 0;
+    }
+    #footer > div > div.footerLeft{
+        padding-left: 0 !important;
+    }
+
+    #footerImg{
+        width: 182px;
+        height: 182px;
+        margin-left: 8px;
+    }
+
+    #footerLink > li > div > a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+    }
+    #footerLink2{
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    #footerRights > div, #footerRights > div > a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    #footerRights > div.text-end {
+        position:relative;
+    }
+
+    #footerIcons{
+        padding-top: 52px;
+    }
+    #footerIcons > p > i{
+        height: 36px;
+        margin-left: 29px;
+    }
+    
+    #footer_juris{
+        text-align: start !important;
+    }
+    #footer_juris > h5{
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+}
+
+/* --- Body --- */
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: MonsterratBold;
+    src: url('../font/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Oswald;
+    src: url('../font/Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: Montserrat, Tahoma, serif;
+}
+
+@media only screen and (min-width: 601px) {
+    /* --- Navigation --- */
+    #navbarFont{
+        font-family: MonsterratBold;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #mainNav {
+        padding-top: 0 !important;
+        background: #fff;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #ffa800;
+    }
+        
+    .custom-toggler.navbar-toggler {
+        border-color: #ffa800;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 168, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    /* --- Header --- */
+    .headerImg {
+        height: 722px;
+        position: relative;
+    }
+
+    .headerImgPlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        background-color: white;
+    }
+
+    /* --- About us --- */
+    #aboutUs{
+        padding: 150px 0;
+        margin-bottom: 0;
+        
+        width: 654px;
+        height: auto;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    #aboutUs > p {
+        width: 654px;
+        height: 114px;
+        margin-bottom: 0;
+    }
+
+    /* --- Photo collage --- */
+
+    #rippedImage{
+        position: absolute;
+        padding: 0;
+    }
+
+    #imageCollage > img{
+        padding: 0;
+    }
+
+    #imageCollage > div.col > img.imageTop{
+        width: 480px;
+    }
+
+    #imageCollage > div.col{
+        padding: 0;
+    }
+
+    /* --- Contact us --- */
+    #contHeader > div {
+        padding-top: 150px;
+    }
+
+    #contHeader > div > div > div > div > button{
+        background-color: #ffa800;
+        border: none;
+        border-radius: 25px;
+    }
+
+    #contactHeadingfirst, #contactHeadingsecond{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 24px;
+    }
+
+    #contactHeading{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 30px;
+    }
+    #contactHeader > div{
+        padding-bottom: 55px;
+    }
+
+    #contacts{
+        padding: 150px 0;
+    }
+
+    #form{
+        padding-bottom: 150px;
+    }
+
+    #form > div > div > div > input::placeholder, #form > div > input::placeholder, #form > div > textarea::placeholder, #form > div > div{
+        color: #2F4858;
+    }
+    #form > div > div > div > input, #form > div > input, #form > div > textarea{
+        background: rgba(196, 196, 196, 0.4);
+        border: none;
+    }
+
+    #form > button{
+        background-color: #ffa800;
+        border: none;
+        border-radius: 25px;
+        margin-left: 10px;
+    }
+
+    /* --- Sponsors --- */
+    #sponsors{
+        background: #ffcb66;
+    }
+
+    #sponsors-list{
+        padding-bottom: 90px;
+    }
+
+    .font2{
+        font-family: Oswald;
+        color: #2F4858;
+        font-size: 24px;
+        padding: 100px 0px 89px 0px;
+    }
+
+    /* --- Footer --- */
+
+    #footer{
+        background: #2F4858;
+        margin-top: -35px;
+    }
+    #footer > div > div > h5{
+        font-size: 24px;
+        padding-bottom: 22px;
+        margin-bottom: 0;
+    }
+
+    #footer > div > div > div > p{
+        font-size: 18px;
+        line-height: 10px;
+        margin-bottom: 0;
+    }
+    #footer > div > div.footerLeft{
+        padding-left: 0 !important;
+    }
+
+    #footerImg{
+        width: 182px;
+        height: 182px;
+        margin-left: 8px;
+    }
+
+    #footerLink > li > div > a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+    }
+    #footerLink2{
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    #footerRights > div, #footerRights > div > a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    #footerRights > div.text-end {
+        position:relative;
+    }
+
+    #footerIcons{
+        padding-top: 52px;
+    }
+    #footerIcons > p > i{
+        height: 36px;
+        margin-left: 29px;
+    }
+}
