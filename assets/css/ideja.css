@@ -1,0 +1,162 @@
+/* ---------- Idea ---------- */
+
+#idea {
+    margin-top: 50px;
+}
+
+#idea > div > div > div > h1{
+    margin: 0 auto 0 auto;
+
+    width: 280px;
+    height: 46px;
+
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#idea > div > div > div > p{
+    margin: 30px auto 150px auto;
+
+    width: 280px;
+    height: 124px;
+
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+    #idea > div > div > div > h1{
+        font-size: 48px;
+        line-height: 71px;
+    }
+
+    #idea > div > div > div > p{
+        width: 608px;
+        height: 112px;
+        
+        margin-top: 60px;
+    
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+/* --- Desktop --- */
+@media screen and (min-width: 992px){
+
+    #idea > div > div > div > p{
+        width: 606px;
+    }
+}
+
+/* ---------- Photo Juris ---------- */
+
+#photo_juris > div{
+    padding: 0;
+
+    height: 476px;
+    overflow: hidden;
+    position: relative;
+}
+
+#photo_juris > div > img{
+    /* top: 387px;
+    left: 520px; */
+    left: 50%;
+
+    margin-left: -525px;
+
+    position:absolute;
+    
+    width: 921px;
+    /* height: 475px; */
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+@media screen and (min-width: 992px){
+
+}
+
+/* ---------- Card carousel ---------- */
+#card_carousel {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#card_carousel > div > div.card {
+    border: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#card_carousel > div > div > div.card-body {
+    padding: 0;
+}
+
+#card_carousel > div > div > div > h5.card-title {
+    margin: 0;
+
+    width: 280px;
+    height: 29px;
+
+    font-family: Oswald;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #2F4858;
+}
+
+#card_carousel > div > div > div > h6.card-subtitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    width: 280px;
+    height: 39px;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F4858;
+}
+
+#card_carousel > div > div > div > p.card-text {
+    margin-bottom: 30px;
+
+    width: 279px;
+    height: 66px;
+
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2F4858;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+@media screen and (min-width: 992px){
+
+}
