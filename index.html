@@ -15,27 +15,42 @@
 <body>
 
 <!-- * Navigation bar * -->
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-    <div class="container-fluid px-5">
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/img/BlackLogo 3.jpg" id="headerlogo">
-        </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto me-2 my-3 my-lg-0" id="navbarFont">
-                <li class="nav-item"><a class="nav-link me-lg-4" href="ideja.html">Ideja</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">Piesaki Sapni</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">Uzņēmējiem</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">Sapņu banka</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">Sapņus atbalsta</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">99 Iedvesmas stāsti</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-4" href="#">LV</a></li>
-              </ul>
+<section id="navigation">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/BlackLogo 3.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarResponsive">
+                <div class="navbar-nav">
+                    <div class="row justify-content-center d-lg-none" id="language_selector">
+                            <a class="nav-link active" href="#LV">LV</a>
+                            <a class="nav-link" href="#EN">EN</a>
+                            <a class="nav-link" href="#RU">RU</a>
+                    </div>
+                
+                    <a class="nav-link short-link" href="ideja.html">Ideja</a>
+                    <a class="nav-link" href="#">Piesaki Sapni</a>
+                    <a class="nav-link" href="#">Uzņēmējiem</a>
+                    <a class="nav-link" href="#">Sapņu banka</a>
+                    <a class="nav-link" href="#">Sapņus atbalsta</a>
+                    <a class="nav-link long-link" href="#">99 Iedvesmas stāsti</a>
+                </div>
+            </div>
+            <div class="dropdown d-none d-lg-block">
+                <button class="btn dropdown-toggle removePointer" type="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-expanded="false">LV</button>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                  <li><a class="dropdown-item" href="#EN">EN</a></li>
+                  <li><a class="dropdown-item" href="#RU">RU</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</section>
 
 <!-- * Header * -->
 <section class="d-sm-block">
