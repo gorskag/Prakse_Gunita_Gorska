@@ -235,6 +235,10 @@ a.nav-link:hover{
     height: 100px;
 }
 
+#footer_Sparkle_details{
+    display: none;
+}
+
 #footer_details > h5, #footer > footer > div > div > div#footer_Sparkle_details > h5{
     font-weight: 500;
     font-size: 18px;
