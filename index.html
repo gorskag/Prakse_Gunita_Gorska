@@ -165,56 +165,56 @@
 </section>
 
 <!-- * Footer * -->
-<footer class="text-white footer">
-    <div class="container-fluid pt-5 px-3" id="footer">
-        <div class="row p-4">
-            <div class="col-md-3 justify-content-center">
-                <img src="assets/img/GoldenV2Logo 3.png" id="footerImg">
-            </div>
-            <div class="col-md-3 d-none d-md-block">
-                <ul class="navbar-nav" id="footerLink">
-                    <li><div><a href="#">Ideja</a></div></li>
-                    <br>
-                    <li><div><a href="#">Piesaki Sapni</a></div></li>
-                    <br>
-                    <li><div><a href="#">Uzņēmējiem</a></div></li>
-                    <br>
-                    <li><div><a href="#">Sapņu banka</a></div></li>
-                    <br>
-                    <li><div><a href="#">Sapņus atbalsta</a></div></li>
-                    <br>
-                    <li><div><a href="#">Iedvesmas stāsti</a></div></li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 d-none d-md-block footerLeft">
-                <h5>Biedrība SparkleHeart</h5>
+<section id="footer">
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex flex-column flex-md-row justify-content-md-between justify-content-lg-between">
                 <div>
+                    <img src="assets/img/GoldenV2Logo 3.png">
+                    <h5 class="d-none d-md-block d-lg-none">Juris Gogulis</h5>
+                </div>
+                <div class="d-none d-lg-block">
+                    <a href="#"><p>Ideja</p></a>
+                    <a href="#"><p>Piesaki Sapni</p></a>
+                    <a href="#"><p>Uzņēmējiem</p></a>
+                    <a href="#"><p>Sapņu banka</p></a>
+                    <a href="#"><p>Sapņus atbalsta</p></a>
+                    <a href="#"><p>Iedvesmas stāsti</p></a>
+                </div>
+                <div id="footer_Sparkle_details" class="d-lg-block">
+                    <h5>Biedrība SparkleHeart</h5>
+
                     <p>Reģistrācijas nr. 40008293119</p>
-                    <br> <p>Banka: SWEDBANK A/S</p>
-                    <br> <p>LV52HABA0551047652465</p>
+                    <p>Banka: SWEDBANK A/S</p>
+                    <p>LV52HABA0551047652465</p>
+                </div>
+                <div id="tablet_right">
+                    <div id="footer_details">
+                        <h5 class="d-md-none d-lg-block">Juris Gogulis</h5>
+
+                        <p>juris.gogulis@sparkleheart.org</p>
+                        <p>+37126890034</p>
+                        <p>Biķernieku iela 24a - 5, LV-1006</p>
+                        <p class="d-md-block d-lg-none" id="footer_details_expand" onclick="sparkleDetails()">Skatīt rekvizītus</p>
+                    </div>
+                    <div id="footer_socials">
+                        <img src="assets/img/fb.png">
+                        <img src="assets/img/ig.png">
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-3 text-end" id="footer_juris">
-                <h5>Juris Gogulis</h5>
+            <div class="d-md-flex">
                 <div>
-                    <p>juris.gogulis@sparkleheart.org</p>
-                    <br> <p>+37126890034</p>
-                    <br> <p>Biķernieku iela 24a - 5, LV-1006</p>
-                    <div class="d-block d-sm-none"><br> <p><b>Skatīt rekvizītus</b></p></div>
-                    <br> <div id="footerIcons">
-                            <p><i class="fab fa-facebook-f fa-2x"></i><i class="fab fa-instagram fa-2x"></i></p>
-                        </div>
+                    <p id="copyright">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+                </div>
+                <div class="ms-auto">
+                    <p>Privātuma politika</p>
                 </div>
             </div>
         </div>
-        <div class="row px-4" id="footerRights">
-            <div class="mb-2 col-6">&copy; SparkleHeart 2020.<br class="d-none d-sm-block">Visas tiesības aizsargātas.</div>
-            <div class="col-6 text-end"><a href="#" id="footerLink2">Privātuma politika</a></div>
-        </div>
-    </div>
-</footer>
+    </footer>
+</section>
 
 
 <!-- * Bootstrap / js * -->

@@ -216,3 +216,219 @@ a.nav-link:hover{
         display: none !important;
     }
 }
+
+/* --- Footer --- */
+
+#footer > footer{
+    background-image: url("../img/footer-mobile.png");
+    background-repeat: round;
+    background-size: cover;
+    color: white;
+}
+
+#footer > footer > div.container-fluid{
+    padding: 40px 20px 30px 20px;
+}
+
+#footer > footer > div > div > div > img{
+    width: 100px;
+    height: 100px;
+}
+
+#footer_details > h5, #footer > footer > div > div > div#footer_Sparkle_details > h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#footer_details > p, #footer > footer > div > div > div#footer_Sparkle_details > p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    margin-bottom: 10px;
+}
+
+#footer_details > p#footer_details_expand{
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-bottom: 35px;
+}
+
+#footer_socials > img{
+    height: 25px;
+    margin-right: 34px;
+}
+
+#footer > footer > div > div > div > p{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+
+    margin: 0;
+}
+
+#footer > footer > div > div > div > p#copyright{
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+    #footer > footer{
+        background-image: url("../img/footer-tablet.png");
+    }
+
+    #footer > footer > div.container-fluid{
+        padding: 70px 80px 50px 80px;
+    }
+
+    #footer > footer > div > div > div > img{
+        width: 162px;
+        height: 162px;
+    }
+
+    #footer > footer > div > div > div > h5, #footer > footer > div > div > div#footer_Sparkle_details > h5{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    #footer > footer > div > div > div#footer_Sparkle_details > h5{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    #footer_Sparkle_details{
+        display: none;
+        padding-top: 4px;
+    }
+
+    #tablet_right{
+        align-self: flex-end;
+        text-align: right;
+    }
+    
+    #footer_details > p, #footer > footer > div > div > div#footer_Sparkle_details > p{
+        font-size: 18px;
+        line-height: 22px;
+    
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    #footer_details > p#footer_details_expand{
+        font-size: 18px;
+        line-height: 22px;
+    
+        margin-bottom: 35px;
+    }
+    
+    #footer_socials > img{
+        height: 25px;
+        margin-left: 34px;
+        margin-right: 0;
+    }
+
+    #footer > footer > div > div > div > p{
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-top: 35px;
+    }
+    
+    #footer > footer > div > div > div > p#copyright{
+        margin-bottom: 0;
+    }
+}
+
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    #footer > footer{
+        background-image: url("../img/footer-desk.png");
+    }
+
+    #footer > footer > div.container-fluid{
+        padding: 70px 62px 13px 64px;
+    }
+
+    #footer > footer > div > div > div > img{
+        width: 182px;
+        height: 182px;
+    }
+
+    #footer > footer > div > div > div > a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #footer > footer > div > div > div > a > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 21px;
+    }
+
+    #footer_Sparkle_details{
+        padding-top: 0px;
+    }
+
+    #tablet_right{
+        align-self: flex-start;
+        text-align: right;
+    }
+
+    #footer_details > h5, #footer > footer > div > div > div#footer_Sparkle_details > h5{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    
+        margin-top: 0px;
+        margin-bottom: 22px;
+    }
+    
+    #footer_details > p, #footer > footer > div > div > div#footer_Sparkle_details > p{
+        font-size: 18px;
+        line-height: 22px;
+    
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+    
+    #footer_socials > img{
+        height: 36px;
+
+        margin-top: 52px;
+        margin-left: 29px;
+    }
+
+    #footer > footer > div > div > div > p{
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-top: 5px !important;
+    }
+    
+    #footer > footer > div > div > div > p#copyright{
+        margin-bottom: 0 !important;
+        width: 182px;
+    }
+
+    #footer > footer > div > div > div.ms-auto{
+        align-self: flex-end;
+    }
+}
