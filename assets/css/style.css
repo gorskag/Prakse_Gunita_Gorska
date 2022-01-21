@@ -22,7 +22,25 @@ html, body{
 }
 
 body {
-    padding-top: 114px;
+    padding-top: 70px;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body {
+        padding-top: 130px;
+    }
+}
+
+@media screen and (min-width: 1243px){
+    body {
+        padding-top: 90px;
+    }
 }
 
 /* --- Navigation --- */

@@ -1,0 +1,190 @@
+/* --- Header video --- */
+
+#headerVideo > div.container-fluid{
+    padding: 0;
+}
+
+#headerVideo > div.container-fluid > div{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#headerVideo > div.container-fluid > div > img.headerBot, #headerVideo > div.container-fluid > div > img.headerTop{
+    width: 100%;
+    height: auto;
+
+    top: 0;
+    left: 0;
+}
+
+#headerVideo > div.container-fluid > div > img.headerBot{
+    position: relative;
+    margin-top: 1px;
+}
+
+#headerVideo > div.container-fluid > div > img.headerTop{
+    position: absolute;
+}
+
+#headerVideo > div.container-fluid > div > div{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -70%);
+}
+
+#headerVideo > div.container-fluid > div > div > img.headerBot{
+    position: absolute;
+}
+
+#headerVideo > div.container-fluid > div > div > img.headerTop{
+    position: relative;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+#headerVideo > div.container-fluid > div > div > img{
+    width: 50px;
+    height: 48.26px;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+    #headerVideo > div.container-fluid > div > div > img{
+        width: 86px;
+        height: 83px;
+    }
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    #headerVideo > div.container-fluid > div > img.headerTop{
+        filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.25));
+    }
+}
+
+/* --- About Sparkle --- */
+
+#aboutSparkle > div.container-fluid{
+    padding: 80px 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#aboutSparkle > div > p{
+    width: 280px;
+
+    margin: 0;
+
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+    #aboutSparkle > div.container-fluid{
+        padding: 150px 80px;
+    }
+    
+    #aboutSparkle > div > p{
+        width: 608px;
+    
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    #aboutSparkle > div.container-fluid{
+        padding: 150px 353px 150px 359px;
+    }
+    
+    #aboutSparkle > div > p{
+        width: 654px;
+    }
+}
+
+/* --- Photo collage --- */
+#photoCollage > div.container-fluid, #photoCollage > div > div > div, #photoCollage > div > div > img{
+    padding: 0;
+}
+
+#photoCollage > div > div > img{
+    object-fit: cover;
+}
+
+#photoCollage > div > div > div > img{
+    width: 100%;
+    height:50%;
+
+    object-fit: cover;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    
+}
+
+/* --- Buttons --- */
+
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    
+}
+
+/* --- Form --- */
+
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    
+}
+
+/* --- Sponsors --- */
+
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    
+}
