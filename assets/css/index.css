@@ -138,31 +138,85 @@
     object-fit: cover;
 }
 
-/* --- Tablet --- */
-
-@media screen and (min-width: 768px){
-
-}
-
-/* --- Desktop --- */
-
-@media screen and (min-width: 992px){
-    
-}
-
 /* --- Buttons --- */
+#contactSparkle > div.container-fluid, #contactSparkle > div > div.row > div{
+    padding: 0;
+}
 
+#contactSparkle > div > div.row{
+    margin: 120px 20px;
+}
+
+#contactSparkle > div > div.row > div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactSparkle > div > div.row > div > h3{
+    margin-bottom: 30px;
+
+    font-family: Oswald;
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#contactSparkle > div > div.row > div > a{
+    width: 233px;
+    height: 50px;
+
+    border-radius: 30px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    background: #FFA800;
+    color: #FFFFFF;
+}
+
+#contactSparkle > div > div.row > div.sapnotajiem{
+    padding-bottom: 80px;
+}
 
 /* --- Tablet --- */
 
 @media screen and (min-width: 768px){
+    #contactSparkle > div > div.row{
+        margin: 150px 80px;
+    }
 
+    #contactSparkle > div > div.row > div > h3{
+        margin-bottom: 50px;
+    }
+
+    #contactSparkle > div > div.row > div.sapnotajiem{
+        padding-bottom: 0px;
+    }
 }
 
 /* --- Desktop --- */
 
 @media screen and (min-width: 992px){
-    
+    #contactSparkle > div > div.row{
+        margin: 150px 168px;
+    }
+
+    #contactSparkle > div > div.row > div > h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 /* --- Form --- */
