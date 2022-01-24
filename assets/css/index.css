@@ -117,6 +117,36 @@
 }
 
 /* --- Photo collage --- */
+/* photo over photo */
+#photoCollage > div{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#photoCollage > div > div.row{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#photoCollage > div > img.first{
+    position: absolute;
+    top: -1px;
+
+    z-index: 1;
+
+    width: 100%;
+}
+#photoCollage > div > img.second{
+    position: absolute;
+    bottom: -1px;
+
+    z-index: 1;
+
+    width: 100%;
+}
+
+/*  */
+
 #photoCollage > div.container-fluid, #photoCollage > div > div > div, #photoCollage > div > div > img{
     padding: 0;
 }
@@ -467,4 +497,16 @@
         
         margin: 0 0;
     }
+}
+
+/* --- Desktop --- */
+
+@media screen and (min-width: 992px){
+    #sponsors > div > h2{
+        padding-bottom: 70px;
+    }
+}
+
+#sponsors > div > div{
+    padding-bottom: 145px;
 }
