@@ -402,16 +402,69 @@
 }
 
 /* --- Sponsors --- */
+#sponsors > div.container-fluid{
+    padding: 0;
+    background-image: url("../img/sponsorsMobile.png");
+}
 
+#sponsors > div > div{
+    padding: 0 22px;
+    margin: 0;
+    margin-bottom: -40px;
+
+    padding-bottom: 120px;
+}
+
+#sponsors > div > h2{
+    padding-top: 83px;
+    padding-bottom: 60px;
+
+    font-family: Oswald;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#sponsors > div > div > img{
+    max-width: fit-content;
+    height: fit-content;
+
+    padding: 0;
+}
+
+#sponsors > div > div > img.order-0{
+    padding-right: 18px;
+    padding-bottom: 40px;
+}
+
+#sponsors > div > div > img.order-3, #sponsors > div > div > img.order-2{
+    width: auto;
+    height: 67px;
+    
+    margin: 0 auto;
+}
 
 /* --- Tablet --- */
 
 @media screen and (min-width: 768px){
+    #sponsors > div > h2{
+        padding-bottom: 36px;
+    }
 
-}
-
-/* --- Desktop --- */
-
-@media screen and (min-width: 992px){
+    #sponsors > div > div > img{
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
     
+    #sponsors > div > div > img.order-3, #sponsors > div > div > img.order-2{
+        max-width: fit-content;
+        height: fit-content;
+        
+        margin: 0 0;
+    }
 }
