@@ -138,7 +138,7 @@
     object-fit: cover;
 }
 
-/* --- Buttons --- */
+/* --- Contact Sparkle --- */
 #contactSparkle > div.container-fluid, #contactSparkle > div > div.row > div{
     padding: 0;
 }
@@ -186,8 +186,122 @@
     color: #FFFFFF;
 }
 
+#contactSparkle > div > div.row > div > a:hover{
+    background: #ffda16;
+}
+
+#contactSparkle > div > div.row > div > a:active{
+    background: #ff8a00;
+}
+
 #contactSparkle > div > div.row > div.sapnotajiem{
     padding-bottom: 80px;
+}
+
+/* form */
+
+#contactSparkle > div > form{
+    margin: 0 20px;
+}
+
+#contactSparkle > div > form > h4{
+    margin-bottom: 30px;
+
+    font-family: Oswald;
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#contactSparkle > div > form > div{
+    margin-bottom: 10px;
+}
+
+#contactSparkle > div > form > div > input, #contactSparkle > div > form > div > textarea{
+    background-color: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: 0;
+}
+
+#contactSparkle > div > form > div > input::placeholder, #contactSparkle > div > form > div > textarea::placeholder{
+    font-family: Montserrat;
+    font-weight: normal;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: -0.015em;
+
+    color: #2F4858;
+}
+
+#contactSparkle > div > form > div > textarea{
+    height: 150px;
+}
+
+#contactSparkle > div > form > div > div.form-text{
+    margin-top: 10px;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2F4858;
+}
+
+#contactSparkle > div > form > div > div.form-check > input{
+    margin-top: 0;
+
+    background: #E7E7E7;
+    border: 0;
+    border-radius: 3px;
+}
+
+
+#contactSparkle > div > form > div > div.form-check > label{
+    margin-left: 17px;
+    margin-bottom: 50px;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2F4858;
+}
+
+#contactSparkle > div > form > div.submitArea{
+    margin-bottom: 150px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#contactSparkle > div > form > div > button.btn{
+    width: 140px;
+    height: 48px;
+
+    border-radius: 30px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    background: #FFA800;
+    color: #FFFFFF;
+}
+
+#contactSparkle > div > form > div > button.btn:hover{
+    background: #ffda16;
+}
+
+#contactSparkle > div > form > div > button.btn:active{
+    background: #ff8a00;
 }
 
 /* --- Tablet --- */
@@ -204,6 +318,52 @@
     #contactSparkle > div > div.row > div.sapnotajiem{
         padding-bottom: 0px;
     }
+
+    #contactSparkle > div > form{
+        margin: 0 80px;
+    }
+    
+    #contactSparkle > div > form > h4{
+        margin-bottom: 60px;
+
+        font-size: 30px;
+        line-height: 44px;
+    }
+    
+    #contactSparkle > div > form > div{
+        margin-bottom: 15px;
+    }
+    
+    #contactSparkle > div > form > div > input::placeholder, #contactSparkle > div > form > div > textarea::placeholder{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    #contactSparkle > div > form > div > textarea{
+        height: 230px;
+    }
+    
+    #contactSparkle > div > form > div > div.form-text{
+        margin-top: 15px;
+
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    #contactSparkle > div > form > div > div.form-check > label{
+        margin-left: 25px;
+    
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #contactSparkle > div > form > div > button.btn{
+        width: 182px;
+        height: 62px;
+        
+        font-size: 24px;
+        line-height: 29px;
+    }
 }
 
 /* --- Desktop --- */
@@ -217,21 +377,28 @@
         font-size: 24px;
         line-height: 36px;
     }
-}
 
-/* --- Form --- */
+    #contactSparkle > div > form{
+        margin: 0 auto;
 
-
-/* --- Tablet --- */
-
-@media screen and (min-width: 768px){
-
-}
-
-/* --- Desktop --- */
-
-@media screen and (min-width: 992px){
+        max-width: 612px;
+    }
     
+    #contactSparkle > div > form > h4{
+        margin-bottom: 55px;
+    }
+    
+    #contactSparkle > div > form > div > textarea{
+        height: 232px;
+    }
+
+    #contactSparkle > div > form > div > div.form-text{
+        margin-bottom: 15px;
+    }
+    
+    #contactSparkle > div > form > div > div.form-check > label{
+        margin-left: 21px;
+    }
 }
 
 /* --- Sponsors --- */
