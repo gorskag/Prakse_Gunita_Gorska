@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon" href="assets/img/GoldenV2Logo 3.png">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>Ideja - Sparkle</title>
 </head>
 <body>
@@ -78,20 +80,30 @@
 <!-- * Card carousel * -->
 <section id="card_carousel">
     <div class="container-fluid">
-        <div class="card">
-            <div class="card-body">
+        <div class="card d-flex flex-row">
+            <div class="card-body card1" id="card1">
                 <h5 class="card-title">Ken Ludden</h5>
                 <h6 class="card-subtitle">Director, Margot Fonteyn Academy of Ballet</h6>
                 <p class="card-text">For it is Juris work that is the <br>
                     light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
+                <button class="btn prev"><img src="/assets/img/leftclick.png"></button>
+                <button class="btn next" id="next"><img src="/assets/img/rightclick.png"></button>
+            </div>
+            <div class="card-body card2" id="card2">
+                <h5 class="card-title">Ken Ludden Card 2</h5>
+                <h6 class="card-subtitle">Director, Margot Fonteyn Academy of Ballet</h6>
+                <p class="card-text">For it is Juris work that is the <br>
+                    light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
+                <button class="btn prev" id="prev"><img src="/assets/img/rightclick.png"></button>
+                <button class="btn next" id="next2"><img src="/assets/img/rightclick.png"></button>
+            </div>
+            <div class="card-body card3" id="card3">
+                <h5 class="card-title">Ken Ludden Card 3</h5>
+                <h6 class="card-subtitle">Director, Margot Fonteyn Academy of Ballet</h6>
+                <p class="card-text">For it is Juris work that is the <br>
+                    light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
+                <button class="btn prev" id="prev2"><img src="/assets/img/rightclick.png"></button>
+                <button class="btn next" id="next3"><img src="/assets/img/leftclick.png"></button>
             </div>
           </div>
     </div>
