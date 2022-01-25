@@ -138,7 +138,7 @@
 }
 #photoCollage > div > img.second{
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
 
     z-index: 1;
 
@@ -171,6 +171,20 @@
 /* for safari */
 #photoCollage > div > div > img.col-7, #photoCollage > div > div > div > img{
     height: intrinsic;
+}
+
+@media screen and (min-width: 992px){
+    #photoCollage > div > div > img.col-7, #photoCollage > div > div > div > img{
+        height: auto;
+    }
+
+    #photoCollage > div > img.first{
+        top: -3px;
+    }
+
+    #photoCollage > div > img.second{
+        bottom: -4px;
+    }
 }
 
 /* --- Contact Sparkle --- */
