@@ -173,6 +173,8 @@
     height: intrinsic;
 }
 
+/* --- Desktop --- */
+
 @media screen and (min-width: 992px){
     #photoCollage > div > div > img.col-7, #photoCollage > div > div > div > img{
         height: auto;
