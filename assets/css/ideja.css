@@ -1,14 +1,15 @@
 /* --- Idea --- */
-
 #idea {
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-#idea > div > div > div > h1{
-    margin: 0 auto 0 auto;
+#idea > div{
+    padding: 0;
+}
 
-    width: 280px;
-    height: 46px;
+#idea > div > div > h1{
+    margin: 0 auto;
 
     font-family: Oswald;
     text-transform: uppercase;
@@ -19,11 +20,8 @@
     color: #2F4858;
 }
 
-#idea > div > div > div > p{
-    margin: 30px auto 150px auto;
-
-    width: 280px;
-    height: 124px;
+#idea > div > div > p{
+    margin: 30px 20px 0 20px;
 
     font-style: normal;
     font-size: 12px;
@@ -36,18 +34,19 @@
 /* --- Tablet --- */
 
 @media screen and (min-width: 768px){
+    #idea {
+        margin-top: 95px;
+        margin-bottom: 150px;
+    }
 
-    #idea > div > div > div > h1{
+    #idea > div > div > h1{
         font-size: 48px;
         line-height: 71px;
     }
-
-    #idea > div > div > div > p{
-        width: 608px;
-        height: 112px;
-        
-        margin-top: 60px;
     
+    #idea > div > div > p{
+        margin-top: 60px;
+
         font-size: 18px;
         line-height: 22px;
     }
@@ -55,9 +54,15 @@
 
 /* --- Desktop --- */
 @media screen and (min-width: 992px){
+    #idea {
+        margin-top: 109px;
+    }
+    
+    #idea > div > div > p{
+        margin: 60px auto 0 auto;
 
-    #idea > div > div > div > p{
         width: 606px;
+        height: 112px;
     }
 }
 
@@ -68,6 +73,8 @@
 
     height: 476px;
     position: relative;
+    top: 0;
+    left: 0;
 
     background: linear-gradient(to top, rgba(47, 72, 88, 0.8) 18.63%, rgba(47, 72, 88, 0) 49.21%), url("../img/JurisTablet.png");
     
@@ -91,6 +98,23 @@
     text-align: center;
 
     color: #FFFFFF;
+}
+
+#photo_juris > div > img.first{
+    position: absolute;
+    top: -1px;
+
+    z-index: 1;
+
+    width: 100%;
+}
+#photo_juris > div > img.second{
+    position: absolute;
+    bottom: -2px;
+
+    z-index: 1;
+
+    width: 100%;
 }
 
 /* --- Tablet --- */
@@ -133,6 +157,14 @@
         margin-right: auto;
 
         max-width: 818px;
+    }
+    
+    #photo_juris > div > img.first{
+        top: -3px;
+    }
+
+    #photo_juris > div > img.second{
+        bottom: -3px;
     }
 }
 
