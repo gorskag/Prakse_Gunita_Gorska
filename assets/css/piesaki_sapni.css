@@ -231,7 +231,7 @@
 }
 
 /* for safari */
-#photoCollage > div > div > img.order-md-0, #photoCollage > div > div > div > img{
+#photoCollage > div > div > div > img{
     height: intrinsic;
 }
 
