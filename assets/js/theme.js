@@ -9,6 +9,12 @@ function sparkleDetails() {
     }
 }
 
+// --- On click slides to the form
+function scrolltoSapnotajiem(){
+    var x = document.getElementById("form");
+
+    x.scrollIntoView();
+}
 
 // --- On click slides to the previous/next card ---
 $(document).ready(function(){
@@ -57,4 +63,4 @@ $(document).ready(function(){
         "display":"none",
         }).hide().animate({opacity:1});
     });
-  });
+});
