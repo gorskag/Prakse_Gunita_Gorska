@@ -125,7 +125,7 @@
     color: #2F4858;
 }
 
-#form > div > form > div > div.form-check > input{
+input[type=checkbox]{
     margin-top: 0;
 
     background: #E7E7E7;
