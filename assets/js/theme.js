@@ -1,3 +1,13 @@
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 56.948, lng: 24.108 },
+    zoom: 14,
+  });
+}
+
+
 // --- On click shows/hides SparkleHeart details ---
 function sparkleDetails() {
     var x = document.getElementById("footer_Sparkle_details");

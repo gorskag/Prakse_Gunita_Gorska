@@ -230,6 +230,7 @@
 
 #mission > div > div.d-flex > div.missionSecHeader > div > div > img{
     margin: 60px auto 25px auto;
+    display: block;
 
     max-width: 35%;
     height: auto;

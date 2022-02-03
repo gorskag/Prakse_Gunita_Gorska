@@ -5,12 +5,16 @@
 
     <!-- * css / bootstrap / favicon / fontawesome * -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/sapnu_banka.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/sapnus_atbalsta.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/GoldenV2Logo 3.png">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <title>Sapņu banka - Sparkle</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <title>Sapņus atbalsta - Sparkle</title>
 </head>
 <body>
 
@@ -35,8 +39,8 @@
                     <a class="nav-link short-link" href="ideja.html">Ideja</a>
                     <a class="nav-link" href="piesaki_sapni.html">Piesaki Sapni</a>
                     <a class="nav-link" href="uznemejiem.html">Uzņēmējiem</a>
-                    <a class="nav-link active" aria-current="page" href="sapnu_banka.html">Sapņu banka</a>
-                    <a class="nav-link" href="sapnus_atbalsta.html">Sapņus atbalsta</a>
+                    <a class="nav-link" href="sapnu_banka.html">Sapņu banka</a>
+                    <a aria-current="page" class="nav-link active" href="sapnus_atbalsta.html">Sapņus atbalsta</a>
                     <a class="nav-link long-link" href="iedvesmas_stasti.html">99 Iedvesmas stāsti</a>
                 </div>
             </div>
@@ -52,83 +56,46 @@
     </nav>
 </section>
 
-<!-- * Header * -->
-<section id="header">
+<!-- * Sponsors * -->
+<section id="sponsors">
     <div class="container-fluid">
         <div class="d-flex flex-column">
-            <h2>Sapņu banka</h2>
-            <img src="assets/img/sapnu_banka.jpg">
-        </div>
-    </div>
-</section>
-
-<!-- * Goal * -->
-<section id="goal">
-    <div class="container-fluid">
-        <div class="d-flex flex-column">
-            <h1>Mērķis</h1>
-            <div class="row row-cols-md-2">
-                <img class="img-fluid" src="assets/img/Goal1.png">
-                <p>Palīdzēt Latvijas un citu valstu sabiedrības locekļiem gūt panākumus personiskajā dzīvē un piepildīt dzīves sapņus, tādējādi, veicinot visas sabiedrības labklājību un kopējo laimes indeksu</p>
-            </div>
-            <div class="row row-cols-md-2">
-                <img class="img-fluid" src="assets/img/Goal2.png">
-                <p>Palīdzēt Latvijas un citu valstu sabiedrības locekļiem īstenot sapņus un idejas, kuras ir balstītas uz pasaules un cilvēces ilgtspējīgu attīstību, tai skaitā izglītošanos un tālākizglītību</p>
-            </div>
-            <div class="row row-cols-md-2">
-                <img class="img-fluid" src="assets/img/Goal3.png">
-                <p>Piesaistīt juridisko un fizisko personu intelektuālos un finanšu resursus sapņu realizācijai</p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- * Mission * -->
-<section id="mission">
-    <div class="container-fluid">
-        <div class="d-flex flex-column">
-            <div class="missionHeader">
-                <h1>Misija</h1>
-                <p>SparkleHeart ir Latvijā un pasaulē atpazīts zīmols</p>
-            </div>
-            <div class="missionOrange">
-                <img class="img-fluid" src="assets/img/missionFirstOrange.png">
-                <p>Tavai zināšanai, sapņus mēs krājam visu gadu, lai maijā, kad visa pasaule zied, izvēlētos pašus iedvesmojošākos.</p>
-            </div>
-            <div class="missionSecHeader">
-                <h1>Sapņus atlasīs</h1>
-                <div class="row row-cols-md-2">
-                    <div>
-                        <img class="img-fluid" src="assets/img/missionFirst.png">
-                        <p>Publiskais cilvēku balsojums mājas lapā</p>
-                    </div>
-                    <div>
-                        <img class="img-fluid" src="assets/img/missionSec.png">
-                        <p>Īpaši izveidota komisija, kur tiek pieaicināti arī SP sadarbības partneri</p>
-                    </div>
+            <h1>Sapņus atbalsta</h1>
+            <p>Sadarbības partneri ir uzņēmumi, kuri savā preču vai pakalpojumu ikdienā ir integrējuši SparkleHeart zīmolu un dala ar to konkrētu daļu savu ienākumu.</p>
+            <div class="d-flex flex-column flex-md-row justify-content-center">
+                <div class="btn-group d-flex flex-column">
+                    <p>Uzņēmuma atrašanās vieta</p>
+                    <form>
+                        <select id="location">
+                            <option value="" selected disabled hidden>Izvēlies</option>
+                            <option value="1">Rīga</option>
+                            <option value="2">Jelgava</option>
+                            <option value="3">Ogre</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="btn-group d-flex flex-column">
+                    <p>Uzņēmuma veids</p>
+                    <form>
+                        <select id="location">
+                            <option value="" selected disabled hidden>Izvēlies</option>
+                            <option value="1">Ēdināšana</option>
+                            <option value="2">Lorem ipsum</option>
+                            <option value="3">Lorem ipsum</option>
+                        </select>
+                    </form>
                 </div>
             </div>
-            <div class="missionOrange">
-                <img class="img-fluid" src="assets/img/missionSecOrange.png">
-                <p>Galvenais kritērijs, lai sapni izvēlētos, ir, vai to realizējot, mēs padarīsim pasauli labāku. Un pasauli labāku var padarīt gan lielas, gan mazas lietas</p>
-            </div>
         </div>
     </div>
 </section>
 
-<!-- * Contact Sparkle * -->
-<section id="contactSparkle">
+<!-- * Map * -->
+
+<section id="mapsection">
     <div class="container-fluid">
-        <div class="row row-cols-md-2">
-            <div class="sapnotajiem">
-                <h3>Vēlies piepildīt savu sapni?</h3>
-                <a class="btn mx-auto" href="piesaki_sapni.html">Sapņotājiem</a>
-            </div>
-            <div class="uznemejiem">
-                <h3>Vēlies palīdzēt kādam piepildīt sapni?</h3>
-                <a class="btn mx-auto" href="uznemejiem.html">Uzņēmējiem</a>
-            </div>
+        <div id="map">
+            <!-- <iframe src="https://snazzymaps.com/embed/369613" width="100%" height="606px" style="border:none;"></iframe> -->
         </div>
     </div>
 </section>
@@ -185,9 +152,9 @@
     </footer>
 </section>
 
-
 <!-- * Bootstrap / js * -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTcz4Y37uNp2Sd2-MqBYEmyXvcfCjLRMM&callback=initMap&v=weekly" async></script>
 <script type='text/javascript' src='assets/js/theme.js'></script>
 
 </body>

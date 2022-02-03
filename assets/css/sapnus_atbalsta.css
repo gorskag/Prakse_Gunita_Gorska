@@ -1,0 +1,179 @@
+/* --- Idea --- */
+#sponsors {
+    margin: 50px 20px 80px 20px;
+}
+
+#sponsors > div{
+    padding: 0;
+    margin: 0;
+}
+
+#sponsors > div > div > h1{
+    margin: 0;
+
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#sponsors > div > div > p{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#sponsors > div > div > div > div > p{
+    margin-bottom: 15px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+
+    color: #FFA800;
+}
+
+#sponsors > div > div > div > div:nth-child(even) > p{
+    margin-top: 40px;
+}
+
+#sponsors > div > div.d-flex > div > div > form{
+    margin: 0;
+}
+
+#sponsors > div > div.d-flex > div > div > form > select{
+    width: 100%;
+    height: 41.35px;
+    padding: 0 15px;
+
+    background: url("../img/selectVector.png") no-repeat right rgba(196, 196, 196, 0.4);
+    -webkit-appearance: none;
+    background-position-x: calc( 100% - 15px );
+    
+    border: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+    letter-spacing: -0.015em;
+
+    color: #2F4858;
+}
+
+#sponsors > div > div.d-flex > div > div > form > select:not(:checked) {
+    font-weight: bold;
+}
+
+/* --- Tablet --- */
+
+@media screen and (min-width: 768px){
+    #sponsors {
+        margin: 80px 80px 70px 80px;
+    }
+
+    #sponsors > div > div > h1{
+        font-size: 48px;
+        line-height: 71px;
+    }
+    
+    #sponsors > div > div > p{
+        margin-top: 60px;
+        margin-bottom: 90px;
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #sponsors > div > div.d-flex > div > div:nth-child(odd){
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    #sponsors > div > div.d-flex > div > div:nth-child(even){
+        margin-right: auto;
+        margin-left: 15px;
+    }
+
+    #sponsors > div > div > div > div > p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #sponsors > div > div > div > div:nth-child(even) > p{
+        margin-top: 0;
+    }
+
+    #sponsors > div > div.d-flex > div > div > form > select{
+        width: 288px;
+        height: 43px;
+    }
+}
+
+/* --- Desktop --- */
+@media screen and (min-width: 992px){
+    #sponsors {
+        margin: 85px auto 60px auto;
+    }
+
+    #sponsors > div > div > p{
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 818px;
+    }
+}
+
+/* --- Map --- */
+#footer{
+    margin-top: -40px;
+    z-index: 1;
+}
+
+#mapsection{
+    position: relative;
+    z-index: -1;
+}
+
+#mapsection > div{
+    margin: 0;
+    padding: 0;
+}
+
+#mapsection > div > div{
+    width: 100%;
+    height: 606px;
+}
+
+@media screen and (min-width: 768px){
+    #footer{
+        margin-top: -38px;
+    }
+
+    #mapsection > div > div{
+        width: 100%;
+        height: 812px;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    #footer{
+        margin-top: -45px;
+    }
+
+    #mapsection > div > div{
+        width: 100%;
+        height: 648px;
+    }
+}
