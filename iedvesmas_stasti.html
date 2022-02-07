@@ -5,12 +5,16 @@
 
     <!-- * css / bootstrap / favicon / fontawesome * -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/iedvesmas_stasti.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <title>Sākumlapa - Sparkle</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <title>Iedvesmas stāsti - Sparkle</title>
 </head>
 <body>
 
@@ -37,7 +41,7 @@
                     <a class="nav-link" href="uznemejiem.html">Uzņēmējiem</a>
                     <a class="nav-link" href="sapnu_banka.html">Sapņu banka</a>
                     <a class="nav-link" href="sapnus_atbalsta.html">Sapņus atbalsta</a>
-                    <a class="nav-link long-link" href="iedvesmas_stasti.html">99 Iedvesmas stāsti</a>
+                    <a aria-current="page" class="nav-link long-link active" href="iedvesmas_stasti.html">99 Iedvesmas stāsti</a>
                 </div>
             </div>
             <div class="dropdown d-none d-lg-block">
@@ -52,98 +56,39 @@
     </nav>
 </section>
 
-<!-- * Header * -->
-<section id="headerVideo">
-    <div class="container-fluid">
-        <div>
-            <img class="headerBot" src="assets/img/Sparkle Video 1.png">
-            <img class="headerTop" src="assets/img/rippedHeader.png">
-            <div>
-                <img class="headerBot" src="assets/img/headerbot.png">
-                <img class="headerTop" src="assets/img/headertop.png">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- * About Sparkle * -->
-<section id="aboutSparkle">
-    <div class="container-fluid">
-        <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</p>
-    </div>
-</section>
-
 <!-- * Photo collage * -->
-<section id="photoCollage">
+
+
+<!-- * Team * -->
+<section id="team">
     <div class="container-fluid">
-        <img class="first" src="assets/img/ripped 6 7.png">
-        <div class="row row-cols-2 row-cols-md-4">
-
-            <div class="col-5 order-sm-0 order-md-2">
-                <img src="assets/img/Brinuma_meita-15.jpg">
-                <img src="assets/img/Alina_1 1.jpg">
-            </div>
-
-            <img class="col-7 order-sm-1 order-md-3" src="assets/img/Anda_2 1.jpg">
-
-            <img class="order-sm-2 order-md-0" src="assets/img/Zanda_1.jpg">
-            <img class="order-sm-3 order-md-1" src="assets/img/Sibilla_4.jpg">
-        </div>
-        <img class="second" src="assets/img/ripped 6 8.png">
-    </div>
-</section>
-
-<!-- * Contact Sparkle * -->
-<section id="contactSparkle">
-    <div class="container-fluid">
-        <div class="row row-cols-md-2">
-            <div class="sapnotajiem">
-                <h3>Vēlies piepildīt savu sapni?</h3>
-                <a class="btn mx-auto" href="piesaki_sapni.html">Sapņotājiem</a>
-            </div>
-            <div class="uznemejiem">
-                <h3>Vēlies palīdzēt kādam piepildīt sapni?</h3>
-                <a class="btn mx-auto" href="uznemejiem.html">Uzņēmējiem</a>
-            </div>
+        <div class="row">
+            <h2>Sparkle heart komanda</h2>
+            <p>Radošā komanda, kura strādā ar projektu 99 un starptautiskām Sparkle Heart īsfilmām.</p>
         </div>
 
-        <form class="row">
-            <h4>Sazināties ar mums</h4>
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Vārds, Uzvārds*" required>
-            </div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="E-pasts*" required>
-            </div>
-            <div class="col-12">
-                <input type="text" class="form-control" placeholder="Telefons*" required>
-            </div>
-            <div class="col-12">
-                <textarea class="form-control" placeholder="Jautājums, vai komentārs*" required></textarea>
-                <div class="form-text">* obligāti aizpildāmie lauki</div>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="formCheck" required>
-                    <label class="form-check-label" for="formCheck">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+        <div class="d-flex flex-column flex-lg-row">
+            <div>
+                <img src="assets/img/9877fbc1-1605-4322-9e06-f90dba39e238 1.jpg">
+                <div class="about">
+                    <h4>Juris Gogulis</h4>
+                    <p>Idejas ģenerators un režisors</p>
                 </div>
             </div>
-            <div class="col-12 submitArea">
-                <button class="btn" type="submit">Sūtīt</button>
+            <div>
+                <img src="assets/img/girts-ny-1 1.jpg">
+                <div class="about">
+                    <h4>Ģirts Ceriņš</h4>
+                    <p>Operators un montāžas speciālists</p>
+                </div>
             </div>
-        </form>
-    </div>
-</section>
-
-<!-- * Sponsors * -->
-<section id="sponsors">
-    <div class="container-fluid">
-        <h2>Atbalstītāji</h2>
-        <div class="d-flex row row-cols-2 row-cols-md-4 justify-content-evenly">
-            <img class="order-0" src="assets/img/sponsorsTEIKUMS.png">
-            <img class="order-1" src="assets/img/sponsorsSEM.png">
-            <img class="order-2" src="assets/img/sponsorsCITYBEE.png">
-            <img class="order-3" src="assets/img/sponsorsLINEARIS.png">
+            <div>
+                <img src="assets/img/IMG-5556 1.jpg">
+                <div class="about">
+                    <h4>Jānis Zurģis</h4>
+                    <p>Animācijas un grafiskā dizaina meistars</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -200,9 +145,9 @@
     </footer>
 </section>
 
-
 <!-- * Bootstrap / js * -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTcz4Y37uNp2Sd2-MqBYEmyXvcfCjLRMM&callback=initMap&v=weekly" async></script>
 <script type='text/javascript' src='assets/js/theme.js'></script>
 
 </body>
