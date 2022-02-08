@@ -1,14 +1,276 @@
 /* --- Photo collage --- */
+#stories > div{
+    padding: 0;
+    margin-top: 50px;
+}
+
+#stories > div > div.row{
+    margin: 0 20px;
+}
 
 
+
+#stories > div > div.row > h1{
+    margin: 0;
+    padding: 0;
+
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#stories > div > div.row > p{
+    margin: 60px 0 80px 0;
+    padding: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#stories > div > div.row-cols-2 > div.wrapper{
+    padding: 0;
+    padding-bottom: 12px;
+
+    display: grid;
+}
+
+#stories > div > div.row-cols-2 > div.wrapper:nth-child(n+21){
+    display: none;
+}
+
+#stories > div > div.row-cols-2 > div.wrapper:nth-child(odd){
+    justify-content: right;
+    padding-right: 6px;
+}
+
+#stories > div > div.row-cols-2 > div.wrapper:nth-child(even){
+    justify-content: left;
+    padding-left: 6px;
+}
+
+#stories > div > div.row > div > div.imgcard{
+    padding: 0;
+
+    position: relative;
+    display: block;
+
+    width: 134px;
+    height: 134px;
+
+    background: url("../img/stastiBG.png");
+    background-position: center;
+}
+
+#stories > div > div.row > div > div > img{
+    padding: 0;
+
+    position: relative;
+    z-index: -1;
+
+    width: 134px;
+    height: 134px;
+}
+
+#stories > div > div.row > div > div > p{
+    margin-bottom: 0;
+
+    position: absolute;
+    z-index: 1;
+    
+    bottom: -10;
+    right: 10;
+
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    
+    color: white;
+}
+
+#stories > div > div.row > div > div.imgcard:hover{
+    cursor: pointer;
+    background: url("../img/stastiBGhover.png");
+    background-position: center;
+}
+
+#stories > div > div.row > div > div.imgcard:hover > h5{
+    display: block;
+}
+
+#stories > div > div.row > div > div > h5{
+    margin-bottom: 0;
+
+    display: none;
+
+    position: absolute;
+    z-index: 1;
+    
+    top: 30;
+    right: 10;
+    left: 10;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: white;
+}
+
+#stories > div > div.row:nth-child(3){
+    margin: 20px 0;
+
+    justify-content: center;
+}
+
+#stories > div > div.row > button.btn{
+    width: 233px;
+    height: 50px;
+
+    border-radius: 30px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    background: #FFA800;
+    color: #FFFFFF;
+}
 /* --- Tablet --- */
 @media screen and (min-width: 768px){
+    #stories > div{
+        margin-top: 80px;
+    }
+    
+    #stories > div > div.row{
+        margin: 0 auto;
+    }
 
+    #stories > div > div.row-cols-2{
+        max-width: 620px;
+    }
+    
+    #stories > div > div.row > h1{
+        font-size: 48px;
+        line-height: 71px;
+    }
+    
+    #stories > div > div.row > p{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    #stories > div > div.row-cols-2{
+        justify-content: center;
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(odd){
+        justify-content: right;
+        padding-right: 0;
+    }
+    
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(even){
+        justify-content: left;
+        padding-left: 0;
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper{
+        justify-content: center !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: 0;
+
+        width: 155px;
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(4n){
+        justify-content: left;
+        padding-left: 0;
+        margin-right: 0;
+
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(4n+1){
+        justify-content: right;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    #stories > div > div.row > div > div.imgcard{
+        width: 142.69px;
+        height: 142.69px;
+    }
+    
+    #stories > div > div.row > div > div > img{
+        width: 142.69px;
+        height: 142.69px;
+    }
 }
 
 /* --- Desktop --- */
 @media screen and (min-width: 992px){
+    #stories > div > div.row{
+        margin: 0 auto;
+    }
 
+    #stories > div > div.row-cols-2{
+        max-width: 1030px;
+    }
+
+    #stories > div > div.row > p{
+        margin: 60px 0 150px 0;
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(n+21){
+        display: grid;
+    }
+
+    #stories > div > div.row:nth-child(3){
+        display: none;
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(4n){
+        justify-content: center;
+        padding-left: 0 !important;
+        margin-right: 0;
+
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(4n+1){
+        justify-content: center;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(6n){
+        justify-content: left;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+
+    }
+
+    #stories > div > div.row-cols-2 > div.wrapper:nth-child(6n+1){
+        justify-content: right;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+
+    }
 }
 
 /* --- Team --- */
@@ -18,7 +280,6 @@
 }
 
 #team > div > div.row{
-    justify-content: center;
     margin: 0 20px;
 }
 
@@ -47,139 +308,6 @@
     text-align: center;
 
     color: #2F4858;
-}
-
-
-#team > div > div.row > div{
-    padding: 0;
-    margin: 0 20px;
-
-    position: relative;
-
-    background: linear-gradient(360deg, rgba(47, 72, 88, 0.8) 18.63%, rgba(47, 72, 88, 0) 49.21%);
-
-    max-width: 352px;
-    max-height: 443px;
-}
-
-#team > div > div.row > div:nth-child(even){
-    margin: 25px 20px;
-}
-
-#team > div > div.row > div > img{
-    padding: 0;
-
-    position: relative;
-    z-index: -1;
-
-    width:100%;
-}
-
-#team > div > div.row > div > div.about{
-    padding-bottom: 20px;
-
-    position: absolute;
-    z-index: 1;
-
-    width: 100%;
-
-    bottom: 0px;
-}
-
-#team > div > div.row > div > div.about > h4{
-    margin: 0;
-    padding: 0;
-
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-#team > div > div.row > div > div.about > p{
-    margin: 0;
-    padding: 0;
-
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-/* --- Tablet --- */
-@media screen and (min-width: 768px){
-    #team > div{
-        padding: 0;
-        margin: 150px 0;
-    }
-    
-    #team > div > div.row{
-        margin: 0 80px;
-    }
-    
-    #team > div > div.row > h2{
-        font-size: 30px;
-        line-height: 44px;
-    }
-    
-    #team > div > div.row > p{
-        margin: 30px 0 90px 0;
-    
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    #team > div > div.row > div{
-        margin: 0 80px;
-    }
-    
-    #team > div > div.row > div:nth-child(even){
-        margin: 25px 80px;
-    }
-}
-
-/* --- Desktop --- */
-@media screen and (min-width: 992px){  
-    #team > div > div.row{
-        margin: 0 auto;
-    }
-    
-    #team > div > div.row > h2{
-        font-size: 30px;
-        line-height: 44px;
-    }
-    
-    #team > div > div.row > p{
-        margin: 30px auto 60px auto;
-
-        width: 606px;
-    }
-
-    #team > div > div.row > div{
-        margin: 0 0 !important;
-
-        max-width: 289px;
-        max-height: 365px;
-    }
-    
-    #team > div > div.row > div:nth-child(even){
-        margin: 0 80px !important;
-    }
-}
-
-
-
-
-/* testing */
-/* --- Team --- */
-#team > div{
-    padding: 0;
-    margin: 120px 0;
 }
 
 #team > div > div.d-flex{
@@ -250,6 +378,27 @@
 
 /* --- Tablet --- */
 @media screen and (min-width: 768px){
+    #team > div{
+        padding: 0;
+        margin: 150px 0;
+    }
+    
+    #team > div > div.row{
+        margin: 0 80px;
+    }
+    
+    #team > div > div.row > h2{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    
+    #team > div > div.row > p{
+        margin: 30px 0 90px 0;
+    
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     #team > div > div.d-flex > div{
         width: 352px;
         height: 443px;
@@ -258,6 +407,21 @@
 
 /* --- Desktop --- */
 @media screen and (min-width: 992px){  
+    #team > div > div.row{
+        margin: 0 auto;
+    }
+    
+    #team > div > div.row > h2{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    
+    #team > div > div.row > p{
+        margin: 30px auto 60px auto;
+
+        width: 606px;
+    }
+
     #team > div > div.d-flex > div{
         margin: 0 auto;
     
