@@ -195,6 +195,7 @@
 
     #stories > div > div.row-cols-2{
         max-width: 620px;
+        justify-content: left;
     }
     
     #stories > div > div.row > h1{
@@ -205,10 +206,6 @@
     #stories > div > div.row > p{
         font-size: 24px;
         line-height: 29px;
-    }
-
-    #stories > div > div.row-cols-2{
-        justify-content: center;
     }
 
     #stories > div > div.row-cols-2 > div.wrapper:nth-child(odd){
@@ -261,7 +258,8 @@
     }
 
     #stories > div > div.row-cols-2{
-        max-width: 1030px;
+        max-width: 930px;
+        justify-content: left;
     }
 
     #stories > div > div.row > p{
