@@ -1,3 +1,25 @@
+// --- Changes button text on click ---
+const btnchange = document.getElementById("storiescontainerbutton");
+
+btnchange.addEventListener("click", ()=>{
+
+    if(btnchange.innerText === "Skatīt vairāk"){
+        btnchange.innerText = "Skatīt mazāk";
+    }else{
+        btnchange.innerText= "Skatīt vairāk";
+    }
+});
+
+// --- Shows/hides content after 20th child ---
+const container = document.querySelector('.storiescontainer')
+
+const showmore = document.querySelector('.storiescontainerbutton')
+
+showmore.addEventListener('click', () => 
+  container.classList.toggle('show-all')
+)
+
+// --- Initializes the map ---
 let map;
 
 function initMap() {
