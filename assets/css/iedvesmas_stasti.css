@@ -54,11 +54,6 @@
     padding-left: 6px;
 }
 
-#stories > div > div.row-cols-2 > div.wrapper:nth-child(n+97){
-    justify-content: left;
-    padding-left: 6px;
-}
-
 #stories > div > div.row > div > div.imgcard{
     padding: 0;
 
@@ -119,8 +114,8 @@
     z-index: 1;
     
     top: 30;
-    right: 10;
-    left: 10;
+    right: 13;
+    left: 13;
 
     font-family: Oswald;
     font-style: normal;
@@ -249,6 +244,12 @@
         width: 142.69px;
         height: 142.69px;
     }
+
+    #stories > div > div.row > div > div > h5{
+        right: 17;
+        left: 17;
+    }
+    
 }
 
 /* --- Desktop --- */
