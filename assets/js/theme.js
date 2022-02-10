@@ -1,3 +1,12 @@
+// // --- Video popup ---
+// $( document ).ready(function() {
+//     $('#videoPopupLink').magnificPopup({
+//      type:'inline',
+//      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+//    });
+     
+// });
+
 // --- Changes button text on click ---
 const btnchange = document.getElementById("storiescontainerbutton");
 
@@ -94,5 +103,10 @@ $(document).ready(function(){
         "opacity":"0",
         "display":"none",
         }).hide().animate({opacity:1});
+    });
+
+    $('#videoPopupLink').magnificPopup({
+        type:'inline',
+        midClick: true
     });
 });

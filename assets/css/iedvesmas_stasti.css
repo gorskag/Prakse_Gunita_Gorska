@@ -8,7 +8,23 @@
     margin: 0 20px;
 }
 
+/* Video popup */
+.mfp-content{
+    height: 25%;
+}
 
+#videoPopup{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+  
+#videoPopup iframe{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+/*  */
 
 #stories > div > div.row > h1{
     margin: 0;
@@ -127,6 +143,11 @@
     color: white;
 }
 
+#stories > div > div.row > div > div > h5 > a{
+    text-decoration: none;
+    color: white;
+}
+
 #stories > div > div.row > div > div > h6{
     margin-bottom: 0;
 
@@ -178,8 +199,20 @@
     display: block;
 }
 
+/* --- In Between --- */
+
+@media screen and (min-width: 500px){
+    .mfp-content{
+        height: 40%;
+    }
+}
+
 /* --- Tablet --- */
 @media screen and (min-width: 768px){
+    .mfp-content{
+        height: 60%;
+    }
+
     #stories > div{
         margin-top: 80px;
     }
@@ -254,6 +287,21 @@
 
 /* --- Desktop --- */
 @media screen and (min-width: 992px){
+    .mfp-content{
+        height: 90%;
+    }
+    #videoPopup{
+        width: 70%;
+        height: 80%;
+        margin:0 auto;
+    }
+      
+    #videoPopup iframe{
+        width: 100%;
+        height: 100%;
+        margin:0 auto;
+    }
+    
     #stories > div > div.row{
         margin: 0 auto;
     }

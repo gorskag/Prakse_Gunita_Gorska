@@ -4,15 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- * css / bootstrap / favicon / fontawesome * -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/iedvesmas_stasti.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/iedvesmas_stasti.css"/>
 
     <title>Iedvesmas stāsti - Sparkle</title>
 </head>
@@ -95,7 +93,7 @@
             <div class="wrapper">
                 <div class="imgcard">
                     <img src="assets/img/Arta_4.png">
-                    <h5>Arta Balode</h5>
+                    <h5><a href="#videoPopup" id="videoPopupLink" target="_blank" class="popup-modal">Arta Balode</a></h5>
                     <p>5</p>
                 </div>
             </div>
@@ -761,6 +759,9 @@
         <div class="row">
             <button class="btn storiescontainerbutton" type="button" id="storiescontainerbutton">Skatīt vairāk</button>
         </div>
+        <div id="videoPopup" class="mfp-hide">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZGb6xasktBg?autoplay=0" allowfullscreen></iframe>
+        </div>
     </div>
 </section>
 
@@ -850,8 +851,12 @@
 </section>
 
 <!-- * Bootstrap / js * -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTcz4Y37uNp2Sd2-MqBYEmyXvcfCjLRMM&callback=initMap&v=weekly" async></script>
+
 <script type='text/javascript' src='assets/js/theme.js'></script>
 
 </body>
