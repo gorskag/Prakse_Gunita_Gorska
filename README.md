@@ -1,1 +1,1 @@
-Use https://gorskag.github.io/Prakse_Gunita_Gorska/ to view the website
+Use https://gorskag.github.io/Prakse_SparkleHeart/ to view the website
